@@ -1,0 +1,136 @@
+/* LIVE display like YouTube */
+.vjs-custom-skin .vjs-live-control {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-left: 1em;
+}
+
+.vjs-custom-skin .vjs-live-display::before {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    vertical-align: 4%;
+    margin-right: 5px;
+    background: #FF4136;
+    content: '';
+    border-radius: 6px;
+}
+
+/* Timer controls like YouTube */
+.vjs-custom-skin:not(.vjs-live) .vjs-current-time,
+.vjs-custom-skin:not(.vjs-live) .vjs-time-divider,
+.vjs-custom-skin:not(.vjs-live) .vjs-duration {
+    display: block;
+}
+
+.vjs-custom-skin .vjs-time-divider {
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 0;
+}
+
+.vjs-custom-skin .vjs-remaining-time {
+    display: none;
+}
+
+/* Play button like YouTube */
+
+.vjs-custom-skin .vjs-big-play-button {
+    border: none;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    width: 2em;
+    height: 2em;
+    margin-left: -1em;
+    margin-top: -1em;
+    opacity: 0.5;
+}
+
+.vjs-custom-skin .vjs-icon-placeholder {
+    line-height: 2em;
+}
+
+/* Transparent Control Bar */
+
+.vjs-custom-skin-transparent > .vjs-control-bar {
+    background-color: transparent;
+}
+
+.vjs-custom-skin-transparent > .vjs-control-bar > .vjs-control > .vjs-control:not(button),
+.vjs-custom-skin-transparent > .vjs-control-bar > .vjs-control > .vjs-menu > * {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0.12em;
+}
+
+/* Player Colors */
+
+.vjs-custom-skin-blue > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-blue > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #0074D9;
+}
+
+.vjs-custom-skin-aqua > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-aqua > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #7FDBFF;
+}
+
+.vjs-custom-skin-teal > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-teal > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #39CCCC;
+}
+
+.vjs-custom-skin-olive > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-olive > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #3D9970;
+}
+
+.vjs-custom-skin-green > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-green > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #2ECC40;
+}
+
+.vjs-custom-skin-lime > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-lime > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #01FF70;
+}
+
+.vjs-custom-skin-yellow > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-yellow > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #FFDC00;
+}
+
+.vjs-custom-skin-orange > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-orange > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #FF851B;
+}
+
+.vjs-custom-skin-red > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-red > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #FF4136;
+}
+
+.vjs-custom-skin-maroon > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-maroon > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #85144B;
+}
+
+.vjs-custom-skin-fuchsia > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-fuchsia > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #F012BE;
+}
+
+.vjs-custom-skin-purple > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-purple > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #B10DC9;
+}
+
+.vjs-custom-skin-silver > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-silver > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #DDDDDD;
+}
+
+.vjs-custom-skin-white > .vjs-control-bar > .vjs-control > .vjs-slider > div,
+.vjs-custom-skin-white > .vjs-control-bar > .vjs-control > .vjs-control > .vjs-slider > div {
+    background-color: #FFF;
+}
